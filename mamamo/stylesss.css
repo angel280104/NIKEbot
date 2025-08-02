@@ -1,0 +1,138 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  min-height: 100vh;
+  background: linear-gradient(rgba(5, 5, 5, 0.548), rgba(5,5,5,0.548)),
+  url('nike.png') center/cover no-repeat;
+  color: white;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.85), rgba(0, 0, 0, 0));
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.5);
+}
+
+
+.nike-logo {
+  height: 35px;        
+  margin-right: 2px;   
+  vertical-align: middle;
+}
+
+.dev-page-btn {
+  background-color: #111;
+  color: #e0e0e0;
+  border: 2px solid #555;
+  padding: 8px 18px;
+  border-radius: 25px;
+  font-size: 14px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.3s ease;
+  box-shadow: 
+    0 0 6px #333,
+    0 0 12px #222;
+}
+
+.dev-page-btn:hover {
+  background-color: #222;
+  color: #fff;
+  box-shadow: 
+    0 0 12px #444,
+    0 0 18px #222;
+  transform: scale(1.05);
+}
+
+.dev-page-btn:hover {
+  background-color: #6d706c;
+  color: black;
+  box-shadow: 0 0 20px rgba(181, 189, 184, 0.6);
+  transform: scale(1.05);
+}
+
+.topic {
+  font-size: 20px;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+}
+
+.developer-page {
+  background: linear-gradient(rgba(5, 5, 5, 0.548), rgba(5,5,5,0.548)), 
+              url('nike.png') center/cover no-repeat;
+  color: white;
+}
+
+.profile-cards {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  margin-top: 40px;
+  flex-wrap: wrap;
+}
+
+.profile-card {
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 12px;
+  padding: 20px;
+  width: 240px;
+  text-align: center;
+  backdrop-filter: blur(5px);
+  transition: 0.3s ease;
+}
+
+.profile-card:hover {
+  transform: translateY(-5px);
+  background: rgba(255, 255, 255, 0.1);
+}
+
+.profile-card img {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 2px solid white;
+  margin-bottom: 15px;
+}
+
+.profile-card h3 {
+  margin: 10px 0 5px;
+  color: #fff;
+}
+
+.profile-card p {
+  font-size: 14px;
+  color: #ccc;
+  margin: 5px 0;
+}
+
+.container {
+  text-align: center;
+  padding-top: 80px;
+}
+
+.welcome-box {
+  background: rgba(0, 0, 0, 0.7);
+  display: inline-block;
+  padding: 30px 50px;
+  border-radius: 15px;
+  border: 2px solid #555; 
+  box-shadow: 
+    0 0 8px #333,
+    0 0 15px #222;
+  text-align: center;
+  max-width: 600px;
+}
+
+.glow-text {
+  color: #e0e0e0;
+  text-shadow:
+    0 0 4px #333,
+    0 0 8px #222,
+    0 0 12px #111;
+}
